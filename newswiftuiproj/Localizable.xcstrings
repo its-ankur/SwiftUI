@@ -1,0 +1,28 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@: %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$lld"
+          }
+        }
+      }
+    },
+    "Game Over" : {
+
+    },
+    "Play Again" : {
+
+    },
+    "Quit" : {
+
+    },
+    "You've run out of credits after %lld spins.\nWould you like to play again?" : {
+
+    }
+  },
+  "version" : "1.0"
+}

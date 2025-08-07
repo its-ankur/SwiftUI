@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct SlotCard: View {
+struct SlotCard: View, Equatable {
+    
+    static func == (lhs: SlotCard, rhs: SlotCard) -> Bool {
+        lhs.symbol == rhs.symbol
+    }
     
     @Binding var symbol: String
     
     var body: some View {
-        Image(symbol)
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .cornerRadius(20)
+        CustomImage(name: symbol, isSystem: false, cornerRadius: 20)
     }
 }
 
