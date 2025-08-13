@@ -72,9 +72,11 @@ struct ContentView: View {
         //        .background(Color(.yellow))
         //        .shadow(radius: 10)
         
-        SlotsScreen()
+        //SlotsScreen()
         
         //RgbBox()
+        
+        Users()
         
     }
 }

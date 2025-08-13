@@ -14,10 +14,16 @@
     "Game Over" : {
 
     },
+    "Loading..." : {
+
+    },
     "Play Again" : {
 
     },
     "Quit" : {
+
+    },
+    "Users" : {
 
     },
     "You've run out of credits after %lld spins.\nWould you like to play again?" : {
